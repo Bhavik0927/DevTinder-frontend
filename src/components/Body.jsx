@@ -11,7 +11,6 @@ const Body = () => {
     const dispatch = useDispatch();
     const Navigate = useNavigate();
     const userData = useSelector(state => state.user);
-    console.log(userData);
 
     const fetchUser = async () => {
         if (userData) return;
